@@ -1,0 +1,72 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+python3.10/
+
+
+# ===============================
+# Qt / PySide6
+# ===============================
+*.ui~
+*.qmlc
+*.qrc
+*.pyc
+
+# Archivos generados por Qt Creator
+*.pro.user
+*.user
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+
+# ===============================
+# IDEs / Editores
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Sistema Operativo
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Archivos temporales
+# ===============================
+*.tmp
+*.bak
+
+# ===============================
+# Cache de herramientas
+# ===============================
+.pytest_cache/
+.mypy_cache/
+
+# ===============================
+# Jupyter (por si acaso)
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Configuraciones locales
+# ===============================
+.env
+.env.*

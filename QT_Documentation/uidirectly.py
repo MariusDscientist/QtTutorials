@@ -1,3 +1,7 @@
+# This script demonstrates how to load a Qt Designer .ui file directly at runtime
+# using the QUiLoader class. This is an alternative approach to generating
+# a static Python UI file. It allows for more dynamic loading of user interfaces.
+
 import sys 
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import QApplication

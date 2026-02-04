@@ -1,3 +1,9 @@
+# This script explains the concept of custom signals and slots in PySide6.
+# It defines a `Communicate` class with an overloaded signal `speak` that can
+# emit either an integer or a string. It also shows how to connect these
+# signals to a slot that is decorated to handle both data types,
+# demonstrating signal/slot overloading and type-based dispatch.
+
 import sys 
 from PySide6.QtWidgets import QApplication, QPushButton
 from PySide6.QtCore import QObject, Signal, Slot

@@ -1,3 +1,8 @@
+# This script demonstrates how to create a simple dialog application.
+# It includes a QLineEdit for text input and a QPushButton.
+# When the button is clicked, a greeting is printed to the console,
+# showcasing how to connect a button's clicked signal to a slot (a function).
+
 import sys 
 from PySide6.QtWidgets import QLineEdit, QVBoxLayout ,QApplication, QDialog, QLineEdit, QPushButton
 

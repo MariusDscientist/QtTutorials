@@ -1,3 +1,8 @@
+# This script demonstrates the use of QTreeWidget to display hierarchical data.
+# It creates a tree structure from a Python dictionary, where dictionary keys
+# are top-level items (e.g., project names) and values are their children (e.g., file names).
+# The script also shows how to set column headers.
+
 import sys
 from PySide6.QtWidgets import QApplication, QTreeWidget, QTreeWidgetItem
 

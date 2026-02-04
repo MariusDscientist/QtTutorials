@@ -1,3 +1,7 @@
+# This script provides a basic example of a QPushButton in PySide6.
+# It demonstrates how to create a button, connect its 'clicked' signal
+# to a Python function (a "slot"), and use the @Slot decorator.
+
 import sys 
 from PySide6.QtWidgets import QApplication, QPushButton
 from PySide6.QtCore import Slot

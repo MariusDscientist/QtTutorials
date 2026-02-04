@@ -1,3 +1,8 @@
+# This script illustrates how to use a Python class generated from a Qt Designer .ui file.
+# It imports the `Ui_MainWindow` class from the `ui_mainwindow.py` file
+# and uses it to construct the user interface for the main window.
+# This is a common pattern for separating UI design from application logic.
+
 import sys 
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtCore import QFile

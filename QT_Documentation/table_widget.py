@@ -1,3 +1,8 @@
+# This script shows how to use the QTableWidget to display tabular data.
+# It creates a table and populates it with a list of colors,
+# showing the color name, its hexadecimal code, and a swatch of the actual color.
+# It includes a helper function to convert hex color codes into QColor objects.
+
 import sys
 from PySide6.QtGui import QColor
 from PySide6.QtWidgets import QApplication, QTableWidget, QTableWidgetItem
